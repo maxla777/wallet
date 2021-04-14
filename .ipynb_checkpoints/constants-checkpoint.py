@@ -1,6 +1,3 @@
-{
- "cells": [],
- "metadata": {},
- "nbformat": 4,
- "nbformat_minor": 4
-}
+BTC ="btc"
+ETH ="eth"
+BTCTEST="btc-test"

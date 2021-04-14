@@ -24,7 +24,7 @@ def derive_wallets(mnemonic, coin, numderive):
     keys = json.loads(output)
     return keys
 
-coins = {'eth','btc-test','btc'}
+coins = {'btc','eth','btc-test'}
 
 def priv_key_to_account(coin, priv_key):
     
@@ -34,6 +34,7 @@ def priv_key_to_account(coin, priv_key):
         return PrivateKeyTestnet(priv_key)
     
 def create_tx(coin, account, to, amount):
-    
+    if coin ==ETH:
+        
 
 
